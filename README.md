@@ -26,7 +26,7 @@ This project implements a **K-Nearest Neighbors (KNN)** classifier to predict wh
    - Normalized numerical features using StandardScaler
    - Split dataset into training and test sets (80%-20%)
 3. **Model Training**:
-   - Implemented KNN classifier with `k=8` (optimized using cross-validation)
+   - Implemented KNN classifier with `k=8` (optimized using GridSearchCV)
    - Used `train_test_split` for model validation
 4. **Evaluation**:
    - Measured accuracy, precision, recall, and F1-score
